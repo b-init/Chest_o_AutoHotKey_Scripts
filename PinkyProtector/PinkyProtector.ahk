@@ -16,7 +16,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Will likely keep updating this script as I use it and find ways to make it better
 ; Yoinked the primary logic from https://www.autohotkey.com/boards/viewtopic.php?t=20661
 ;
-; You can view the custom layer here <link>
+; You can view the custom layer here https://github.com/Yeetus3141/Chest_o_AutoHotKey_Scripts#readme
 
 ; Replacing ' with Backspace
 [::BackSpace
