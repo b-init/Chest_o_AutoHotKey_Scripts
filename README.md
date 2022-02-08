@@ -11,3 +11,10 @@ The custom layer is designed by me to have the special characters typed by the p
 In very early stages but will likely keep updating this script as I use it and find ways to make it better. Here's the layout
 
 ![PinkyProtector](PinkyProtector/Keyboard_Layouts/PinkyProtector.png)
+
+## Credits
+[Speed Optimization](https://www.autohotkey.com/boards/viewtopic.php?t=6413)
+
+[Method of using layers with AutoHotKey](https://www.autohotkey.com/boards/viewtopic.php?t=20661)
+
+[Keyboard Layout Reference](http://www.keyboard-layout-editor.com/#/gists/016b11b6fc11fa1cb9306338a26e71f9)
