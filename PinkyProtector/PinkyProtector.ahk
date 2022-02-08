@@ -18,6 +18,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;
 ; You can view the custom layer here <link>
 
+; Replacing ' with Backspace
+[::BackSpace
 
 CapsLock::
 	KeyWait, CapsLock
@@ -27,25 +29,47 @@ Return
 
 #If, GetKeyState("CapsLock", "P") ;Your CapsLock hotkeys go below
 
+; Macros
+;r::  ; Macro 1
+;t::  ; Macro 2
+;g::  ; Macro 3
+b::Send {Asc 0149} ; Macro 4: the bullet symbol 
+;v::  ; Macro 5
 
+; Rest
 c::CapsLock
+x::Del
+h::Ctrl
 
 e::Up
 s::Left
 d::Down
 f::Right
 
+u::+
+i::=
+o::-
+p::_
 j::{
 k::}
-l::(
-`;::)
+l::"
+`;::'
+'::|
 m::[
 ,::]
+;.::
 /::\
-u::_
-i::-
-o::+
-p::=
+
+1::+1
+2::+2
+3::+3
+4::+4
+5::+5
+6::+6
+7::+7
+8::+8
+9::+9
+0::+0
 
 Return
 ;

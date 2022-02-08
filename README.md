@@ -10,4 +10,4 @@ The custom layer is designed by me to have the special characters typed by the p
 
 In very early stages but will likely keep updating this script as I use it and find ways to make it better. Here's the layout
 
-![PinkyProtector](Keyboard_Layouts/PinkyProtectorV0.0.1.png)
+![PinkyProtector](Keyboard_Layouts/PinkyProtector.png)
