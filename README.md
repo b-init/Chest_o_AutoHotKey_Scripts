@@ -12,6 +12,7 @@ In very early stages but will likely keep updating this script as I use it and f
 
 ![PinkyProtector](PinkyProtector/Keyboard_Layouts/PinkyProtector.png)
 
+
 ## Credits
 [Speed Optimization](https://www.autohotkey.com/boards/viewtopic.php?t=6413)
 

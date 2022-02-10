@@ -6,14 +6,14 @@
       "h": 0.75,
       "d": true
     },
-    "<h4>PinkyProtector Layout V0.0.2</h4>",
+    "<h4>PinkyProtector Layout V0.0.3</h4>",
     {
       "x": 0.25,
       "w": 10,
       "h": 15,
       "d": true
     },
-    "<h3 align='center'><b>Why this layout is the way it is</b></h3><br/>   <ul><li> This layout is designed with ease of learning in mind, with a little bias towards keys that I use frequently. Keys are placed to be as organized as possible so learing them becomes easier.<b> It's meant to be changed up by you for yourself. </b></li><br><li>Originally designed for a TKL (Ten Key Less) QWERTY Keyboard. Hence, less used keys like PgUp, Insert aren't considered.</li></br>  <br><li><b>Why CapsLock?</b> The Capslock key is the only easily reachable key that I am fine sacrificing. You can use any you like but do not mess with modifier keys (Ctrl, Alt, Shift, Win) if you don't want to break other shortcuts. You'll now have to use the new CapsLock key (Layer 2 > C) to actually activate CapsLock, or you can program another obsecure key like ScrollLock for CapsLock.</li></br> <br><li><b> The Backspace.</b> Moving the backspace down is bit of a bold move since it's engraved into our muscle memories, but I'm ready to take it on for my pinky since it requires quite a flex to reach. The whatever-bracket ([,{) key that it replaced will be available exclusively on the second layer. </li></br>  <br><li><b>The Arrow Keys.</b> They're moved to EASD because I'm already used to using those fingers for arrow keys while gaming, just a bit offset from WASD keys so that I don't have to move my whole hand when I'm in layer 2. </br></li>  <br><li><b>Why's the Ctrl key there?.</b> I've moved the ctrl near the index finger so that I can use ctrl+arrow keys (to move through words instead of just letters) while in the second layer.  </li></br> <br><li><b>Number Row.</b> They're fairly easy to reach (although I'm used to using middle and ring finger for 9 and 0 as that makes more ergonomical sense for me) so those symbols aren't replaced. And it'll be on 'Shift mode' in layer 2 to match with rest of the symbols.  </br></li><br><li><b>Macros.</b> You can program every unused key in 2nd layer to be used as any macro you want, I've just pointed out a few for good measure. </br></li>  </ul><br></br>"
+    "<h3 align='center'><b>Why this layout is the way it is</b></h3><br/>   <ul><li> This layout is designed with ease of learning in mind, with a little bias towards keys that I use frequently. Keys are placed to be as organized as possible so learing them becomes easier.<b> It's meant to be changed up by you for yourself. </b></li><br><li>Originally designed for a TKL (Ten Key Less) Staggered QWERTY Keyboard. Hence, less used keys like PgUp, Insert aren't considered.</li></br>  <br><li><b>Why CapsLock?</b> The Capslock key is the only easily reachable key that I am fine sacrificing. You can use any you like but be careful if you mess with modifier keys (Ctrl, Alt, Shift, Win), if you don't want to break other shortcuts. You'll now have to use the new CapsLock key (Layer 2 > C) to actually activate CapsLock, or you can program another obsecure key like ScrollLock for CapsLock.</li></br> <br><li><b> The Backspace:</b> Moving the backspace down is bit of a bold move since it's engraved into our muscle memories, but I'm ready to take it on for my pinky since it requires quite a flex to reach. The whatever-bracket ([],{}) keys that it replaced will be available exclusively on the second layer. </li></br>  <br><li><b>The Arrow Keys:</b> They're moved to EASD because I'm already used to using those fingers for arrow keys while gaming, just a bit offset from WASD keys so that I don't have to move my whole hand when I'm in layer 2. </br></li>  <br><li><b>Why's the Ctrl key there?</b> I've moved the ctrl near the index finger so that I can use ctrl+arrow keys (to move through words instead of just letters) while in the second layer.  </li></br> <br><li><b>The Number Row:</b> They're fairly easy to reach (although I'm used to using middle and ring finger for 9 and 0 as that makes more ergonomical sense for me) so those symbols aren't replaced. And it'll be on 'Shift mode' in layer 2 to match with rest of the symbols.  </br></li><br><li><b>Macros:</b> You can program every unused key in 2nd layer to be used as any macro you want, I've just pointed out a few for good measure. </br></li>  </ul><br></br>"
   ],
   [
     {
@@ -85,9 +85,13 @@
     "I",
     "O",
     "P",
-    "{\n[",
-    "}\n]",
     {
+      "c": "#1a8ab7"
+    },
+    "Back\n\n\n\n\n\nSpace",
+    "Back\n\n\n\n\n\nSpace",
+    {
+      "c": "#beb6a7",
       "w": 1.5
     },
     "|\n\\"
@@ -111,10 +115,7 @@
     "K",
     "L",
     ":\n;",
-    {
-      "c": "#1a8ab7"
-    },
-    "Back\n\n\n\n\n\nSpace",
+    "\"\n'",
     {
       "c": "#63696a",
       "w": 2.25
@@ -288,12 +289,10 @@
       "c": "#1a8ab7"
     },
     "Back\n\n\n\n\n\nSpace",
+    "Back\n\n\n\n\n\nSpace",
     {
       "c": "#beb6a7",
-      "g": true
-    },
-    "}\n]",
-    {
+      "g": true,
       "w": 1.5
     },
     "|\n\\"
@@ -322,16 +321,18 @@
     },
     "Macro\n3",
     {
-      "c": "#1a8ab7"
+      "c": "#beb6a7",
+      "g": true
     },
     "Ctrl",
     {
-      "c": "#66d0d0"
+      "c": "#66d0d0",
+      "g": false
     },
     "{",
     "}",
-    "\"",
-    "'",
+    "[",
+    "]",
     "|",
     {
       "c": "#63696a",
@@ -361,20 +362,14 @@
     "Macro\n5",
     "Macro\n4",
     {
-      "c": "#beb6a7",
-      "g": true,
-      "a": 7,
-      "f": 7
+      "c": "#1a8ab7"
     },
-    "",
+    "Ctrl",
     {
-      "c": "#66d0d0",
-      "g": false,
-      "a": 4,
-      "f": 3
+      "c": "#66d0d0"
     },
-    "[",
-    "]",
+    "~",
+    "`",
     {
       "c": "#beb6a7",
       "g": true,

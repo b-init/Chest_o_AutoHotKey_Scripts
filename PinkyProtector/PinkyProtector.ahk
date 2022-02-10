@@ -18,8 +18,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;
 ; You can view the custom layer here https://github.com/Yeetus3141/Chest_o_AutoHotKey_Scripts#readme
 
-; Replacing ' with Backspace
+; Replacing [,] with Backspace
 [::BackSpace
+]::BackSpace
 
 CapsLock::
 	KeyWait, CapsLock
@@ -34,12 +35,12 @@ Return
 ;t::  ; Macro 2
 ;g::  ; Macro 3
 b::Send {Asc 0149} ; Macro 4: the bullet symbol 
-;v::  ; Macro 5
+v::^+!c  ; Macro 5: Ctrl+Shift+Alt+C
 
-; Rest
+; Everything else
 c::CapsLock
 x::Del
-h::Ctrl
+n::Ctrl
 
 e::Up
 s::Left
@@ -52,11 +53,11 @@ o::-
 p::_
 j::{
 k::}
-l::"
-`;::'
+l::[
+`;::]
 '::|
-m::[
-,::]
+m::~
+,::`
 ;.::
 /::\
 
@@ -70,6 +71,7 @@ m::[
 8::+8
 9::+9
 0::+0
+
 
 Return
 ;
