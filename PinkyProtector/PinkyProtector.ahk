@@ -1,7 +1,9 @@
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 #KeyHistory 0 ; ListLines and #KeyHistory are functions used to "log your keys". Disable them as they're only useful for debugging purposes
-ListLines, Off ; And what I want from this is speeeeed
+ListLines, Off ;
+;SetBatchLines -1 ;
+;SetKeyDelay -1
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance, Force ; Only launch 1 instance of script
@@ -26,18 +28,21 @@ You can view the custom layer here https://github.com/Yeetus3141/Chest_o_AutoHot
 [::BackSpace
 ]::BackSpace
 
-CapsLock::
+
+*CapsLock::
 	KeyWait, CapsLock
 	If (A_PriorKey="CapsLock")
 		SetCapsLockState, % GetKeyState("CapsLock","T") ? "Off" : "On"
 Return
 
+*CapsLock Up::SendEvent, {Ctrl Up}{Shift Up}{Alt Up}
+
 #If, GetKeyState("CapsLock", "P") ;Your CapsLock hotkeys go below
 
 ; Macros
 ;r::  ; Macro 1
-;t::  ; Macro 2
-;g::  ; Macro 3
+t::Send, ^{=}  ; Macro 2: Ctrl + Equals
+g::Send, ^{+}  ; Macro 3: Ctrl + plus
 b::Send {Asc 0149} ; Macro 4: the bullet symbol 
 v::^+!c  ; Macro 5: Ctrl+Shift+Alt+C
 
