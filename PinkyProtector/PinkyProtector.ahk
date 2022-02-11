@@ -41,10 +41,10 @@ Return
 
 ; Macros
 ;r::  ; Macro 1
-t::Send, ^{=}  ; Macro 2: Ctrl + Equals
-g::Send, ^{+}  ; Macro 3: Ctrl + plus
+;t::  ; Macro 2
+;g::  ; Macro 3
 b::Send {Asc 0149} ; Macro 4: the bullet symbol 
-v::^+!c  ; Macro 5: Ctrl+Shift+Alt+C
+;v::  ; Macro 5
 
 ; Everything else
 c::CapsLock
