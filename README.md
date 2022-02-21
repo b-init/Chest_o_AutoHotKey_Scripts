@@ -15,9 +15,17 @@ In very early stages but will likely keep updating this script as I use it and f
 
 **• To run the script automatically on startup:** Paste the ahk script file (or a compiled executable) to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
 
+
+## QuickLittleTimer
+Just what the title says. I find myself using the default windows timer a lot and it is rather laboursome to get one started. So this AHK script creates a simple GUI timer on the screen that starts couting from the moment its activated (via a hotkey, preferably) until its stopped (via another hotkey, or the X button).
+
+![QuickLittleTimer](QuickLittleTimer/QLTscreenshot.png) 
+
 ## Credits
 [Speed Optimization](https://www.autohotkey.com/boards/viewtopic.php?t=6413)
 
 [Basis of method of using layers with AutoHotKey](https://www.autohotkey.com/boards/viewtopic.php?t=20661)
 
 [Keyboard Layout Reference](http://www.keyboard-layout-editor.com/#/gists/016b11b6fc11fa1cb9306338a26e71f9)
+
+
