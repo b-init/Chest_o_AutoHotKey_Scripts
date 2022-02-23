@@ -17,7 +17,7 @@ In very early stages but will likely keep updating this script as I use it and f
 
 - Paste the ahk script file (or a compiled executable) to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`. 
 - Or,
-    - Create a txt file with `Start ""  "Directory to your script\script.ahk"`
+    - Create a txt file with `Start ""  "Directory to your script\script.ahk"` in it
     - Rename it to a `.bat` file
     - Paste the bat file to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
 
