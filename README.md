@@ -13,13 +13,18 @@ In very early stages but will likely keep updating this script as I use it and f
 ![PinkyProtector](PinkyProtector/Keyboard_Layouts/PinkyProtector.png)
 
 
-**• To run the script automatically on startup:** Paste the ahk script file (or a compiled executable) to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
+#### To run the script automatically on startup:
 
+- Paste the ahk script file (or a compiled executable) to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`. 
+- Or,
+    - Create a txt file with `Start ""  "Directory to your script\script.ahk"`
+    - Rename it to a `.bat` file
+    - Paste the bat file to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
 
 ## QuickLittleTimer
-Just what the title says. I find myself using the default windows timer a lot and it is rather laboursome to get one started. So this AHK script creates a simple GUI timer on the screen that starts couting from the moment its activated (via a hotkey, preferably) until its stopped (via another hotkey, or the X button).
+Just what the title says. I find myself using the default windows timer a lot and it is rather laboursome to get one started and then control. So this AHK script creates a simple GUI timer on the screen that starts couting from the moment its activated (via a hotkey, preferably) until its stopped (Right Clicking on it, or another hotkey). Also added a fancy pause button (which would also be mapped to a hotkey, ofcourse).
 
-![QuickLittleTimer](QuickLittleTimer/QLTscreenshot.png) 
+![QuickLittleTimer](QuickLittleTimer/QuLT.gif) 
 
 ## Credits
 [Speed Optimization](https://www.autohotkey.com/boards/viewtopic.php?t=6413)
