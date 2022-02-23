@@ -22,7 +22,7 @@ In very early stages but will likely keep updating this script as I use it and f
     - Paste the bat file to `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
 
 ## QuickLittleTimer, QuLT
-Just what the title says. I find myself using the default windows timer a lot and it is rather laboursome to get one started and then control. So this AHK script creates a simple GUI timer on the screen that starts couting from the moment its activated (via a hotkey, preferably) until its stopped (Right Clicking on it, or another hotkey). Also added a fancy pause button (which would also be mapped to a hotkey, ofcourse).
+Just what the title says. I find myself using the default windows timer a lot and it is rather laboursome to get one started and then controlling it. So this AHK script creates a simple GUI timer on the screen that starts couting from the moment its activated (via a hotkey, preferably) until its stopped (Right Clicking on it, or another hotkey). Also added a fancy pause button (which would also be mapped to a hotkey, ofcourse).
 
 ![QuickLittleTimer](QuLT/QuLT.gif) 
 
