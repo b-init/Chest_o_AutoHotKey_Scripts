@@ -1,5 +1,5 @@
 # Yeetus's Chest of AutoHotKey Scripts
-I just started to learn AutoHotKey and here are some scripts that I use and don't wanna lose. Feel free to use them for your own endeavours.
+Here are some AHK scripts that I use and don't wanna lose. Feel free to use them for your own endeavours.
 
 
 
