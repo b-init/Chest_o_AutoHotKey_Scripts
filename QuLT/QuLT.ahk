@@ -14,7 +14,7 @@ bg_color = 1f1f1f
 paused_color = 424242
 text_size = 32
 
-margin_x := 1.25*32  
+margin_x := 0.75*32  
 margin_y := 0.85*32
 
 Tab:: ; hotkey  will start timer
