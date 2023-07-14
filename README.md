@@ -1,7 +1,7 @@
 # Yeetus's Chest of AutoHotKey Scripts
 Here are some AHK scripts that I use and don't wanna lose. Feel free to use them for your own endeavours.
 
-*Used to use. I do not use Windows anymore. 
+*Used to use. I do not use Windows anymore. I recommend [kmonad](https://github.com/kmonad/kmonad) instead of AHK whenever it's possible because it's works at a lower level and is much more performant but also lacks a lot of AHK's feature as a consequence. 
 
 
 
