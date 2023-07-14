@@ -1,14 +1,17 @@
 # Yeetus's Chest of AutoHotKey Scripts
 Here are some AHK scripts that I use and don't wanna lose. Feel free to use them for your own endeavours.
 
+***Used to use**. I do not use Windows anymore. I recommend [kmonad](https://github.com/kmonad/kmonad) instead of AHK whenever it's possible because it's works at a lower level and is much more performant but also lacks a lot of AHK's feature as a consequence. I've also uploaded kmonad config files.
 
+## Before You Do
+Before using these scripts, you should have an idea of [what AutoHotKey is](https://www.autohotkey.com/) and how it works (or kmonad if you're on linux). Feel free to refer to the [official docs](https://www.autohotkey.com/docs/v2) or YouTube tutorials.
 
 ## The PinkyProtector
 Script to prevent extensive usage of the right pinky finger by creating a different layer of keys (on any keyboard, by holding CapsLock). 
 
 The custom layer is designed by me to have the special characters typed by the pinky spread across the right-hand keys. Also accounts for other utilitles (like arrow keys) to make using keyboard easier for your hand. 
 
-In very early stages but will likely keep updating this script as I use it and find ways to make it better. Here's the layout
+In very early stages but will likely keep updating this script as I use it and find ways to make it better. Here's the layout and some details.
 
 ![PinkyProtector](PinkyProtector/Keyboard_Layouts/PinkyProtector.png)
 

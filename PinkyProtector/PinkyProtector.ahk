@@ -13,7 +13,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 /*
------------------------------- PinkyProtector AHK Script v0.0.1 by Yeetus------------------------------
+------------------------------ PinkyProtector AHK Script v0.0.3 by Yeetus------------------------------
 
 Prevents extensive usage of the right pinky finger by creating a different layer of keys (on any keyboard, by holding CapsLock)
 The custom layer is designed by me to have the special characters typed by the pink spread across the right-hand keys.
